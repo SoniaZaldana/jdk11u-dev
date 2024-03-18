@@ -98,6 +98,10 @@ jobs:
             test-suite: 'test/hotspot/jtreg/:tier1_serviceability'
             debug-suffix: -debug
 
+          - test-name: 'jmod'
+            test-suite: 'test/jdk/:jmod'
+            debug-suffix: -debug
+
     steps:
       - name: 'Checkout the JDK source'
         uses: actions/checkout@v4

@@ -542,3 +542,5 @@ needs_g1gc = \
   jdk/jfr/event/gc/objectcount/TestObjectCountAfterGCEventWithG1FullCollection.java \
   jdk/jfr/event/gc/objectcount/TestObjectCountAfterGCEventWithG1ConcurrentMark.java \
   jdk/jfr/event/gc/heapsummary/TestHeapSummaryEventG1.java
+
+jmod = test/jdk/jdk/modules/etc/JmodExcludedFiles.java
